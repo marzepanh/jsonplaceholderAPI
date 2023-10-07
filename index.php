@@ -12,7 +12,7 @@ $users = $api->getUsers();
 echo "Users:", PHP_EOL;
 printJSON($users);
 
-$userPosts = $api->getUserPosts(2);
+$userPosts = $api->getUserPosts(1);
 echo "User posts:", PHP_EOL;
 printJSON($userPosts);
 
